@@ -1,6 +1,10 @@
+require('dotenv').config();
+
+process.env.ACCESS_TOKEN;
+
 const repo = "javascript_test";
 const username = "Xer0-PT";
-const token = "";
+const token = ACCESS_TOKEN;
 
 const filePath = "path/to/my-file.txt";
 
